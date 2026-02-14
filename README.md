@@ -29,7 +29,7 @@ Reported email file: scenario/reported-email.txt
 - Identified originating IP address
 - Checked for sender spoofing and Reply-To mismatch
 
-See: analysis/content-analysis.md
+See: [`analysis/content-analysis.md`](analysis/content-analysis.md)
 
 
 ---
