@@ -39,7 +39,7 @@ See: [`analysis/content-analysis.md`](analysis/content-analysis.md)
 - Compared displayed vs actual URLs
 - Evaluated attachment or embedded links
 
-See: analysis/url-domain-investigation.md
+See: [`analysis/url-domain-investigation.md`](analysis/url-domain-investigation.md)
 
 
 ---
@@ -52,7 +52,7 @@ Extracted artifacts:
 - Source IP address
 - Phishing URL
 
-Full list: iocs/ioc-list.md
+Full list: [`iocs/ioc-list.md`](iocs/ioc-list.md)
 
 
 ---
@@ -82,14 +82,14 @@ Overall Risk Level: **High**
 
 Simulated Level 1 SOC response:
 
-- Block malicious domain in email gateway
+- Block malicious domains in the email gateway
 - Block URL at web proxy/firewall
 - Reset affected user credentials
 - Review email logs for additional recipients
-- Submit domain to blocklist
+- Submit the domain to the blocklist
 - Notify users via security awareness alert
 
-Full report: incident-response/soc-triage-report.md
+Full report: [`incident-response/soc-triage-report.md`](incident-response/soc-triage-report.md)
 
 
 ---
@@ -100,11 +100,11 @@ This section demonstrates how the phishing activity could be detected or investi
 
 Includes:
 - Example email security alert
-- Proxy/DNS query logs to malicious domain
+- Proxy/DNS query logs to a malicious domain
 - Sample investigation queries
 - Detection recommendations
 
-See: siem/detection-simulation.md
+See: [`siem/detection-simulation.md`](siem/detection-simulation.md)
 
 
 ---
