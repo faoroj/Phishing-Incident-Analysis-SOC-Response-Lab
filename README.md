@@ -134,3 +134,28 @@ See: siem/detection-simulation.md
 ## Project Outcome
 
 The reported email was confirmed to be a phishing attempt designed to harvest user credentials. Appropriate containment and monitoring actions were documented to reduce organizational risk.
+
+## Repository Structure
+```text
+phishing-incident-response-lab/
+│
+├── README.md
+│
+├── scenario/
+│   └── reported-email.txt
+│
+├── analysis/
+│   ├── header-analysis.md
+│   ├── content-analysis.md
+│   └── url-domain-investigation.md
+│
+├── iocs/
+│   └── ioc-list.md
+│
+├── incident-response/
+│   └── soc-triage-report.md
+│
+├── siem/
+│   └── detection-simulation.md
+│
+└── screenshots/
