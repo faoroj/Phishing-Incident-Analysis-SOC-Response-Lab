@@ -9,15 +9,19 @@ The goal is to demonstrate practical SOC analyst skills in phishing detection, t
 
 ## Scenario
 
-A user reports a suspicious email to the security team claiming to be a Microsoft account security alert. The email urges the user to click a link to verify their account.
+Date: 2-14-2026
+
+A user reported a suspicious email requesting account validation for the address **admin@malware-traffic-analysis.net**. The message instructed the recipient to click a link and re-authenticate their account by entering their email credentials.
+
+Initial review indicated the message originated from an external sender and contained a suspicious embedded URL.
 
 SOC Task:
-- Determine if the email is malicious
+- Determine whether the email is malicious
 - Identify indicators of compromise (IOCs)
-- Assess risk to the organization
-- Recommend appropriate response actions
+- Assess potential organizational risk
+- Recommend containment and remediation actions
 
-Reported email file: scenario/reported-email.txt
+Reported email file: scenario/reported-email.eml
 
 
 ---
@@ -74,8 +78,11 @@ Full list: [`iocs/ioc-list.md`](iocs/ioc-list.md)
 ## Threat Classification
 
 **Attack Type:** Credential Harvesting  
-**Technique:** Brand Impersonation (Microsoft)  
-**Delivery Method:** Email phishing with a malicious link  
+**Technique:** Account Validation / Re-authentication Phishing  
+**Impersonation Method:** Generic administrative account validation theme  
+**Delivery Method:** Phishing email containing a malicious external link  
+
+The email attempts to trick the recipient into submitting email credentials via a fraudulent web page hosted on attacker-controlled infrastructure.
 
 ---
 
@@ -84,11 +91,16 @@ Full list: [`iocs/ioc-list.md`](iocs/ioc-list.md)
 | Risk Factor | Severity |
 |------------|---------|
 | Credential theft potential | High |
-| Newly registered domain | High |
-| External spoofed sender | Medium |
-| User interaction (if clicked) | Critical |
+| Malicious external domain detected (7/98 VirusTotal) | High |
+| External, untrusted sending infrastructure | Medium |
+| Targeted administrative account | High |
+| User interaction (if link clicked) | Critical |
 
-Overall Risk Level: **High**
+**Overall Risk Level: High**
+
+### Risk Summary
+
+If a user submits credentials to the phishing site, attackers could gain unauthorized access to organizational email accounts. Compromise of an administrative account would significantly increase the risk of lateral movement, data exposure, or business email compromise (BEC).
 
 ---
 
