@@ -85,7 +85,7 @@ Shows extracted URLs from the email, including the malicious domain **email.proc
 ---
 
 ### 4. Authentication Results
-![Authentication Results](../screenshots/phishtool-authentication.png)
+![Authentication Results](../screenshots/phishtool-authentication-details.png)
 
 Displays SPF, DKIM, and DMARC results, supporting analysis of email authenticity and potential spoofing indicators.
 
