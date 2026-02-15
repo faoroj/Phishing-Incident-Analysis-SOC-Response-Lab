@@ -76,7 +76,8 @@ Displays sender information, recipient, timestamp, and the **originating IP addr
 ---
 
 ### 3. URL Analysis
-`screenshots/phishtool-url-analysis.png`
+![URL Analysis](screenshots/phishtool-url-analysis.png)
+
 
 Shows extracted URLs from the email, including the malicious domain **email.procedure[.]best** and VirusTotal detection results (7/98).
 
