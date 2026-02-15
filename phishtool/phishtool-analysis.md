@@ -62,21 +62,22 @@ The email attempts to trick the recipient into clicking a link and submitting ac
 ## Screenshots
 
 ### 1. Rendered Email Content
-`screenshots/phishtool-rendered-email.png`
+![Rendered Email Content](../screenshots/phishtool-rendered-email.png)
 
 Shows the phishing email as delivered to the user, including the social engineering message and the **“Re-authenticate Now”** credential harvesting link.
 
 ---
 
 ### 2. Header & Sender Details
-`screenshots/phishtool-header-details.png`
+![Header & Sender Details](../screenshots/phishtool-header-details.png)
+
 
 Displays sender information, recipient, timestamp, and the **originating IP address (188.127.247.252)** along with reverse DNS, confirming external and suspicious sending infrastructure.
 
 ---
 
 ### 3. URL Analysis
-![URL Analysis](screenshots/phishtool-url-analysis.png)
+![URL Analysis](../screenshots/phishtool-url-analysis.png)
 
 
 Shows extracted URLs from the email, including the malicious domain **email.procedure[.]best** and VirusTotal detection results (7/98).
@@ -84,7 +85,7 @@ Shows extracted URLs from the email, including the malicious domain **email.proc
 ---
 
 ### 4. Authentication Results
-`screenshots/phishtool-authentication.png`
+![Authentication Results](../screenshots/phishtool-authentication.png)
 
 Displays SPF, DKIM, and DMARC results, supporting analysis of email authenticity and potential spoofing indicators.
 
