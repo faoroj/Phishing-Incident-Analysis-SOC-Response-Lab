@@ -98,10 +98,6 @@ The email attempts to trick the recipient into submitting email credentials via 
 
 **Overall Risk Level: High**
 
-### Risk Summary
-
-If a user submits credentials to the phishing site, attackers could gain unauthorized access to organizational email accounts. Compromise of an administrative account would significantly increase the risk of lateral movement, data exposure, or business email compromise (BEC).
-
 ---
 
 ## SOC Triage & Response Actions
