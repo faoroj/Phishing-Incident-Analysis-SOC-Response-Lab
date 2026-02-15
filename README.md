@@ -172,7 +172,6 @@ phishing-incident-response-lab/
 │
 ├── siem/
 │   └── detection-simulation.md
-phishing-incident-response-lab/
 │
 ├── phishtool/
 │   └── phishtool-analysis.md
