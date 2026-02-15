@@ -21,7 +21,7 @@ SOC Task:
 - Assess potential organizational risk
 - Recommend containment and remediation actions
 
-Reported email file: [`scenario/reported-email.eml`](scenario/reported-email.eml)
+Reported email file: [`scenario/2024-08-29-phishing-email-0415-UTC.eml`](scenario/2024-08-29-phishing-email-0415-UTC.eml)
 
 
 ---
