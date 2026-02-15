@@ -1,6 +1,6 @@
 # Incident Description
 
-Date: [2-14-2026]
+Date: 2-14-2026
 
 A user reported a suspicious email claiming to be from a trusted organization. The email contains a link requesting the user to verify account information.
 
