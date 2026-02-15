@@ -72,7 +72,6 @@ Extracted artifacts:
 
 Full list: [`iocs/ioc-list.md`](iocs/ioc-list.md)
 
-
 ---
 
 ## Threat Classification
@@ -81,8 +80,6 @@ Full list: [`iocs/ioc-list.md`](iocs/ioc-list.md)
 **Technique:** Account Validation / Re-authentication Phishing  
 **Impersonation Method:** Generic administrative account validation theme  
 **Delivery Method:** Phishing email containing a malicious external link  
-
-The email attempts to trick the recipient into submitting email credentials via a fraudulent web page hosted on attacker-controlled infrastructure.
 
 ---
 
@@ -113,7 +110,6 @@ Simulated Level 1 SOC response:
 
 Full report: [`incident-response/soc-triage-report.md`](incident-response/soc-triage-report.md)
 
-
 ---
 
 ## SIEM Detection Simulation
@@ -127,7 +123,6 @@ Includes:
 - Detection recommendations
 
 See: [`siem/detection-simulation.md`](siem/detection-simulation.md)
-
 
 ---
 
