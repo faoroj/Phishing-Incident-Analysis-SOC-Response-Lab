@@ -34,7 +34,19 @@ See: [`analysis/content-analysis.md`](analysis/content-analysis.md)
 
 ---
 
-### 2. Email Content Analysis
+### 2. PhishTool Analysis
+
+The reported email was uploaded to PhishTool for automated analysis and threat intelligence enrichment.
+
+PhishTool capabilities used:
+- Email parsing and header analysis
+- IOC extraction (domains, IPs, URLs)
+- Threat classification
+- Reputation checks
+
+See: [`phishtool/phishtool-analysis.md`](phishtool/phishtool-analysis.md)
+
+### 3. Email Content Analysis
 - Identified social engineering tactics (urgency, impersonation)
 - Compared displayed vs actual URLs
 - Evaluated attachment or embedded links
@@ -61,7 +73,7 @@ Full list: [`iocs/ioc-list.md`](iocs/ioc-list.md)
 
 **Attack Type:** Credential Harvesting  
 **Technique:** Brand Impersonation (Microsoft)  
-**Delivery Method:** Email phishing with malicious link  
+**Delivery Method:** Email phishing with a malicious link  
 
 ---
 
@@ -113,6 +125,7 @@ See: [`siem/detection-simulation.md`](siem/detection-simulation.md)
 
 - TryHackMe (Phishing Module)
 - VirusTotal
+- Phishtool
 - URLScan.io
 - MXToolbox / Google Header Analyzer
 - WHOIS Lookup
@@ -157,5 +170,9 @@ phishing-incident-response-lab/
 │
 ├── siem/
 │   └── detection-simulation.md
+phishing-incident-response-lab/
+│
+├── phishtool/
+│   └── phishtool-analysis.md
 │
 └── screenshots/
