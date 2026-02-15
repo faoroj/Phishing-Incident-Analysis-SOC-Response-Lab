@@ -46,6 +46,8 @@ PhishTool capabilities used:
 
 See: [`phishtool/phishtool-analysis.md`](phishtool/phishtool-analysis.md)
 
+---
+
 ### 3. Email Content Analysis
 - Identified social engineering tactics (urgency, impersonation)
 - Compared displayed vs actual URLs
