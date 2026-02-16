@@ -13,8 +13,8 @@ The root domain **procedure[.]best** was analyzed using VirusTotal WHOIS data.
 - Name Servers:
   - NS1-EXPIRED.SAV.COM
   - NS2-EXPIRED.SAV.COM
-
-Screenshot:
+    
+---
 ![Virustotal WHOIS](../screenshots/whois-domain.png)
 
 ---
