@@ -34,6 +34,7 @@ Several security vendors identified the domain as hosting phishing content.
 **Conclusion:** The domain has an established malicious reputation associated with phishing activity.
 
 Screenshot:
+![Virustotal domain](../screenshots/virustotal-domain.png)
 
 ---
 
@@ -56,7 +57,7 @@ The specific URL path used in the email is also recognized by multiple vendors a
 **Conclusion:** The full URL is confirmed to be part of a phishing infrastructure and should be blocked.
 
 Screenshot:
-
+![Virustotal URL](../screenshots/virustotal-url.png)
 
 ---
 
