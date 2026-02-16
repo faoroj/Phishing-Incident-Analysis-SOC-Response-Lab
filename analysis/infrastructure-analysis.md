@@ -28,3 +28,34 @@ The root domain **procedure[.]best** was analyzed using VirusTotal WHOIS data.
 - Name server configuration indicates basic or low-reputation hosting infrastructure
 
 **Conclusion:** Domain characteristics are consistent with infrastructure used for phishing operations.
+
+--- 
+
+## URLScan Analysis
+
+The phishing URL was analyzed using URLScan to identify hosting infrastructure and network details.
+
+### Hosting Details
+
+- Domain: email.procedure[.]best
+- URL: hxxps://email.procedure[.]best/management.aspx
+- IP Address: 172.67.202.104
+- ASN: AS13335
+- Hosting Provider: Cloudflare, Inc.
+- Location: Ascension Island
+- HTTPS: Enabled
+- TLS Certificate: Recently issued
+
+![URLscan](../screenshots/urlscan-summary.png)
+
+
+---
+
+## URLScan Assessment
+
+- The domain is hosted behind Cloudflare, a content delivery network commonly used to obscure origin infrastructure
+- Use of Cloudflare can make attribution and takedown efforts more difficult
+- The page content appears minimal or inactive at the time of analysis, indicating the phishing site may have been removed or disabled
+- Multiple historical scans indicate prior activity associated with the domain
+
+**Conclusion:** Infrastructure is consistent with phishing operations using CDN protection to conceal backend hosting.
